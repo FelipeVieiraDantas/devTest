@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496f5f32c5bc84d6ea5a181b6541bb77, type: 3}
+  m_Name: Pink
+  m_EditorClassIdentifier: Assembly-CSharp::Block
+  Sprite: {fileID: 1766323589166174454, guid: 10ba0e957a43e46c1a271015c03f9fb4, type: 3}
+  Points: 1

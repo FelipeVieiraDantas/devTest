@@ -60,13 +60,9 @@ public class UIManager : MonoBehaviour
     private void OnReplayButtonClicked()
     {
         gameOverPopup.gameObject.SetActive(false);
-        
-        //Todo: Restart the actual game
         _currentScore = 0;
-        UpdateScore(0);
-        _currentMoves = 5;
-        UpdateMoves(_currentMoves);
-        
+        scoreText.text = _currentScore.ToString();
+        GameManager.Instance.StartGame();
     }
 
     private void OnMakeMoveButtonClicked()
